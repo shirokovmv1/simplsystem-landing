@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Спасибо за заявку — SimplSystem</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#F8FAFC',
+            'text-main': '#111827',
+            'text-muted': '#6B7280',
+            border: '#E5E7EB',
+            brand: '#1A1A40',
+            accent: '#00A8E8',
+            success: '#16A34A',
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-bg text-text-main font-sans antialiased">
+  <main class="min-h-screen flex items-center">
+    <div class="container max-w-xl">
+      <div class="rounded-3xl border border-border bg-white p-6 text-center shadow-lg shadow-brand/5">
+        <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-emerald-50 text-success">
+          ✓
+        </div>
+        <h1 class="mb-2 text-2xl font-semibold text-brand">Спасибо, заявка принята</h1>
+        <p class="mb-4 text-sm text-text-muted">
+          Мы получили ваш запрос и вернёмся с ответом в течение рабочего дня. 
+          Обычно это занимает не более нескольких часов в будние дни.
+        </p>
+        <p class="mb-4 text-sm text-text-muted">
+          Если вопрос срочный, вы можете написать напрямую в Telegram 
+          <a href="https://t.me/ShirokovMV" target="_blank" rel="noopener noreferrer" class="underline decoration-dotted">@ShirokovMV</a>.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 text-xs">
+          <a href="index.html" class="button-primary">Вернуться на главную</a>
+          <a href="privacy.html" class="button-secondary">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+

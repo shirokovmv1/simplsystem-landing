@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Согласие на обработку ПД — SimplSystem</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#F8FAFC',
+            'text-main': '#111827',
+            'text-muted': '#6B7280',
+            border: '#E5E7EB',
+            brand: '#1A1A40',
+            accent: '#00A8E8',
+          }
+        }
+      }
+    };
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-bg text-text-main font-sans antialiased">
+  <main class="min-h-screen py-10">
+    <div class="container max-w-3xl">
+      <a href="index.html" class="mb-6 inline-flex items-center text-xs font-medium text-text-muted hover:text-brand">
+        ← На главную
+      </a>
+      <h1 class="mb-3 text-2xl font-semibold text-brand">Согласие на обработку персональных данных</h1>
+      <p class="mb-4 text-sm text-text-muted">
+        Настоящая страница носит информационный характер. Полный текст согласия содержится в PDF‑документе.
+      </p>
+
+      <section class="mb-6 rounded-2xl border border-border bg-white p-4 text-sm text-text-muted space-y-2">
+        <p>
+          Оставляя заявку на сайте SimplSystem, вы подтверждаете, что ознакомлены с политикой конфиденциальности и
+          даёте согласие на обработку персональных данных в целях:
+        </p>
+        <ul class="list-disc pl-5">
+          <li>обработки обращений и подготовки ответов;</li>
+          <li>заключения и исполнения договоров оказания услуг;</li>
+          <li>информирования о продуктах и сервисах SimplSystem.</li>
+        </ul>
+        <p>
+          Срок хранения и порядок обработки персональных данных подробно описаны в полном тексте согласия.
+        </p>
+      </section>
+
+      <section class="mb-6 rounded-2xl border border-dashed border-border bg-white p-4 text-sm text-text-muted">
+        <h2 class="mb-2 text-base font-semibold text-brand">Полная версия документа</h2>
+        <p class="mb-3">
+          С полным текстом согласия на обработку персональных данных можно ознакомиться в PDF‑документе:
+        </p>
+        <a href="https://disk.yandex.ru/i/bFYqbfEg2FtpOw" target="_blank" rel="noopener noreferrer" class="button-secondary text-xs">
+          Открыть Согласие на обработку ПД (PDF)
+        </a>
+      </section>
+
+      <p class="text-[11px] text-text-muted">
+        Последнее обновление: 2026 г.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
+
